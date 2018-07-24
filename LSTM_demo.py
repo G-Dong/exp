@@ -5,6 +5,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
 
+class wsu()
+    pass
+
 f=open('stock_dataset.csv')
 df=pd.read_csv(f)     # read stocks
 data=np.array(df['Price'])   #from panda to numpy
